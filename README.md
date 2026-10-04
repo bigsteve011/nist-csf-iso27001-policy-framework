@@ -1,6 +1,6 @@
 # 🛡️ NIST CSF 2.0 × ISO/IEC 27001:2022 Policy & Procedure Framework
 
-[![Validate framework mapping](https://github.com/bigsteve011/nist-csf-iso27001-policy-framework/actions/workflows/validate-mapping.yml/badge.svg)](https://github.com/bigsteve011/nist-csf-iso27001-policy-framework/actions/workflows/validate-mapping.yml)
+[![Validate framework mapping](https://github.com/bigsteve011/isms-policy-as-code/actions/workflows/validate-mapping.yml/badge.svg)](https://github.com/bigsteve011/isms-policy-as-code/actions/workflows/validate-mapping.yml)
 ![NIST CSF](https://img.shields.io/badge/NIST%20CSF-2.0-0078D4)
 ![ISO 27001](https://img.shields.io/badge/ISO%2FIEC%2027001-2022-071B33)
 ![Docs as Code](https://img.shields.io/badge/docs-as%20code-2EA44F)
