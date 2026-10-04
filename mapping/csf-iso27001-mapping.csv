@@ -1,0 +1,54 @@
+csf_id,csf_function,csf_category,csf_outcome,iso_clauses,iso_annex_a,policy,procedure,relationship
+GV.OC-01,GOVERN,Organizational Context,"The organisational mission is understood and informs cybersecurity risk management",4.1;4.2,,POL-01,,Partial
+GV.OC-03,GOVERN,Organizational Context,"Legal, regulatory and contractual cybersecurity requirements are understood and managed",4.2,5.31;5.34,POL-01,,Strong
+GV.RM-01,GOVERN,Risk Management Strategy,"Risk management objectives are established and agreed by stakeholders",6.1;6.2,,POL-10,PRC-07,Strong
+GV.RM-02,GOVERN,Risk Management Strategy,"Risk appetite and risk tolerance statements are established and maintained",6.1.2,,POL-10,PRC-07,Partial
+GV.RR-01,GOVERN,"Roles, Responsibilities and Authorities","Leadership is accountable for cybersecurity risk and fosters a risk-aware culture",5.1;5.3,5.4,POL-01,,Strong
+GV.RR-02,GOVERN,"Roles, Responsibilities and Authorities","Cybersecurity roles, responsibilities and authorities are established and communicated",5.3,5.2;5.3,POL-01,,Strong
+GV.RR-04,GOVERN,"Roles, Responsibilities and Authorities","Cybersecurity is included in human resources practices",7.2,6.1;6.2;6.4;6.5,POL-09,PRC-02,Strong
+GV.PO-01,GOVERN,Policy,"Cybersecurity policy is established, communicated and enforced",5.2;7.5,5.1,POL-01,PRC-08,Strong
+GV.PO-02,GOVERN,Policy,"Cybersecurity policy is reviewed and updated to reflect changes in requirements, threats and technology",7.5;9.3,5.1;5.36,POL-01,PRC-08,Strong
+GV.OV-01,GOVERN,Oversight,"Strategy outcomes are reviewed to inform and adjust strategy and direction",9.1;9.3,5.35,POL-01,,Strong
+GV.SC-01,GOVERN,Cybersecurity Supply Chain Risk Management,"A supply chain risk management programme is established and agreed",8.1,5.19;5.21,POL-06,PRC-06,Strong
+GV.SC-05,GOVERN,Cybersecurity Supply Chain Risk Management,"Supply chain security requirements are included in contracts and agreements",,5.20;5.23,POL-06,PRC-06,Strong
+GV.SC-07,GOVERN,Cybersecurity Supply Chain Risk Management,"Supplier risks are identified, recorded, prioritised and monitored over the relationship",,5.22,POL-06,PRC-06,Strong
+ID.AM-01,IDENTIFY,Asset Management,"Inventories of hardware managed by the organisation are maintained",,5.9,POL-03,,Strong
+ID.AM-02,IDENTIFY,Asset Management,"Inventories of software, services and systems are maintained",,5.9;5.23,POL-03,,Strong
+ID.AM-05,IDENTIFY,Asset Management,"Assets are prioritised based on classification, criticality and business value",,5.12;5.13,POL-03,,Strong
+ID.AM-08,IDENTIFY,Asset Management,"Assets are managed throughout their life cycle",,5.11;7.14;8.10,POL-03,,Partial
+ID.RA-01,IDENTIFY,Risk Assessment,"Vulnerabilities in assets are identified, validated and recorded",,8.8,POL-07,PRC-04,Strong
+ID.RA-02,IDENTIFY,Risk Assessment,"Cyber threat intelligence is received from information sharing forums and sources",,5.7,POL-07,,Partial
+ID.RA-05,IDENTIFY,Risk Assessment,"Threats, vulnerabilities, likelihoods and impacts are used to understand inherent risk",6.1.2;8.2,,POL-10,PRC-07,Strong
+ID.RA-06,IDENTIFY,Risk Assessment,"Risk responses are chosen, prioritised, planned, tracked and communicated",6.1.3;8.3,,POL-10,PRC-07,Strong
+ID.IM-01,IDENTIFY,Improvement,"Improvements are identified from evaluations, audits and reviews",9.2;10.1;10.2,,POL-01,,Strong
+ID.IM-04,IDENTIFY,Improvement,"Incident response and other cybersecurity plans are established, communicated and improved",,5.24;5.27;5.30,POL-04,PRC-03,Strong
+PR.AA-01,PROTECT,"Identity Management, Authentication and Access Control","Identities and credentials for authorised users, services and hardware are managed",,5.16;5.17,POL-02,PRC-02,Strong
+PR.AA-03,PROTECT,"Identity Management, Authentication and Access Control","Users, services and hardware are authenticated",,8.5,POL-02,,Strong
+PR.AA-05,PROTECT,"Identity Management, Authentication and Access Control","Access permissions are defined, managed and reviewed using least privilege and separation of duties",,5.3;5.15;5.18;8.2;8.3,POL-02,PRC-01,Strong
+PR.AA-06,PROTECT,"Identity Management, Authentication and Access Control","Physical access to assets is managed, monitored and enforced commensurate with risk",,7.1;7.2;7.3,POL-02,,Partial
+PR.AT-01,PROTECT,Awareness and Training,"Personnel receive awareness and training so they can perform general tasks securely",7.3,6.3,POL-09,,Strong
+PR.AT-02,PROTECT,Awareness and Training,"Individuals in specialised roles receive role-based awareness and training",7.2,6.3,POL-09,,Strong
+PR.DS-01,PROTECT,Data Security,"The confidentiality, integrity and availability of data at rest are protected",,5.12;8.24,POL-03,,Strong
+PR.DS-02,PROTECT,Data Security,"The confidentiality, integrity and availability of data in transit are protected",,5.14;8.24,POL-03,,Strong
+PR.DS-11,PROTECT,Data Security,"Backups of data are created, protected, maintained and tested",,8.13,POL-05,PRC-05,Strong
+PR.PS-01,PROTECT,Platform Security,"Configuration management practices are established and applied",,8.9;8.32,POL-07,,Strong
+PR.PS-02,PROTECT,Platform Security,"Software is maintained, replaced and removed commensurate with risk",,8.8;8.19,POL-07,PRC-04,Strong
+PR.PS-04,PROTECT,Platform Security,"Log records are generated and made available for continuous monitoring",,8.15;8.17,POL-08,,Strong
+PR.PS-06,PROTECT,Platform Security,"Secure software development practices are integrated and their performance is monitored",,8.25;8.28;8.29,POL-11,,Strong
+PR.IR-01,PROTECT,Technology Infrastructure Resilience,"Networks and environments are protected from unauthorised logical access and usage",,8.20;8.22,POL-07,,Strong
+PR.IR-03,PROTECT,Technology Infrastructure Resilience,"Mechanisms are implemented to achieve resilience requirements in normal and adverse situations",,5.30;8.14,POL-05,,Strong
+DE.CM-01,DETECT,Continuous Monitoring,"Networks and network services are monitored to find potentially adverse events",,8.16;8.20,POL-08,,Strong
+DE.CM-03,DETECT,Continuous Monitoring,"Personnel activity and technology usage are monitored to find potentially adverse events",,8.16,POL-08,,Strong
+DE.CM-09,DETECT,Continuous Monitoring,"Computing hardware, software, runtime environments and their data are monitored",,8.7;8.16,POL-08,,Strong
+DE.AE-02,DETECT,Adverse Event Analysis,"Potentially adverse events are analysed to better understand associated activities",,5.25;8.16,POL-08,PRC-03,Strong
+DE.AE-08,DETECT,Adverse Event Analysis,"Incidents are declared when adverse events meet the defined incident criteria",,5.25,POL-04,PRC-03,Strong
+RS.MA-01,RESPOND,Incident Management,"The incident response plan is executed in coordination with relevant third parties once an incident is declared",,5.26,POL-04,PRC-03,Strong
+RS.MA-02,RESPOND,Incident Management,"Incident reports are triaged and validated",,5.25;6.8,POL-04,PRC-03,Strong
+RS.AN-03,RESPOND,Incident Analysis,"Analysis is performed to establish what took place during an incident and its root cause",,5.27,POL-04,PRC-03,Strong
+RS.AN-06,RESPOND,Incident Analysis,"Actions performed during an investigation are recorded and the records' integrity is preserved",,5.28,POL-04,PRC-03,Strong
+RS.CO-02,RESPOND,Incident Response Reporting and Communication,"Internal and external stakeholders are notified of incidents",,5.24;5.26;6.8,POL-04,PRC-03,Strong
+RS.MI-01,RESPOND,Incident Mitigation,"Incidents are contained",,5.26,POL-04,PRC-03,Strong
+RS.MI-02,RESPOND,Incident Mitigation,"Incidents are eradicated",,5.26,POL-04,PRC-03,Strong
+RC.RP-01,RECOVER,Incident Recovery Plan Execution,"The recovery portion of the incident response plan is executed once initiated",,5.26;5.29;5.30,POL-05,PRC-05,Strong
+RC.RP-03,RECOVER,Incident Recovery Plan Execution,"The integrity of backups and other restoration assets is verified before using them for restoration",,8.13,POL-05,PRC-05,Strong
+RC.CO-03,RECOVER,Incident Recovery Communication,"Recovery activities and progress in restoring operational capabilities are communicated to stakeholders",,5.26;5.29,POL-04,PRC-03,Partial
